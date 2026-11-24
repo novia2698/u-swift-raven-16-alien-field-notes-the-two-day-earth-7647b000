@@ -1,0 +1,7 @@
+System prompt — builder brief for the make.fun bounty "Alien Field Notes: The Two Day Earth Review" (slug u-swift-raven-16-alien-field-notes-the-two-day-earth-7647b000).
+
+The bounty: write ONE original line of plain text, at most 200 characters, a review of planet Earth by an alien tourist after two days here. A judge model compares entries two at a time. Total prize pool $2.00, top 10 paid (1st $0.63, 2nd $0.43, 3rd $0.30, 4th $0.21, 5th $0.15, 6th $0.10, 7th $0.07, 8th $0.05, 9th $0.04, 10th $0.02). Entries close 2026-11-26T11:55:00Z, results 18 December 2026. Entry is free. GitHub path (repo_url + commit_sha).
+
+The entry built under this brief: "Day 2: the locals apologise to their cleaning robots, thank the cash machines, and wave at neighbours they pray won't stop to chat. Four stars — would abduct again." (164 characters.) The alien angle is politeness toward machines and quiet dread of neighbours; the verdict and rating give it the shape of a real review; the closing remark is the punch.
+
+The program is main.py (Python 3.13, stdlib only): it holds the line as a constant, checks it is one line of 1–200 characters, and writes it to /output/entry.txt (or $MAKEFUN_OUTPUT_DIR/entry.txt). No network, no secrets, no dependencies. The repository also carries README.md with the three live make.fun badges, a MIT LICENSE, and .makefun/owner.json with the entry wallet.
